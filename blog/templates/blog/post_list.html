@@ -4,14 +4,16 @@
 <title>Yo mama so fat </title>
 </head>
 <body>
-<h1>You mama so fat , she needs an infite loop to go around her fat ass </h1>
-<script>
-var i=0;
-while(10000>i){
- document.write("so fat</br>");
- 
- i++;
-}
-</script>
+<div>
+<h1><a href="/" >Django sexy girls </a> </h1>
+</div>
+{% for post in posts %}
+	<div>
+	<p>published: {{post.published_date}}</p>
+	<h1><a href="">{{post.title}}</a></h1>
+	<p>{{post.text|linebreaksbr}}</p>
+	
+</div>
+{% endfor %}
 </body>
 </html>
